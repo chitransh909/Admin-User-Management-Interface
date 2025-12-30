@@ -1,0 +1,47 @@
+.actionButton {
+    background-color: transparent;
+    border: none;
+}
+
+.actionButton:hover {
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 1rem;
+}
+
+.dark {
+    background: #e0e0e0
+}
+
+.deleteButton {
+    background-color: #E53935;
+    border: none;
+    border-radius: 25px;
+    padding: 1rem;
+    color: #ffffff;
+}
+
+.deleteButton:hover {
+    background-color: #D32F2F;
+    cursor: pointer;
+}
+
+.btnDisabled {
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+@media (max-width: 720px) {
+    .pagination {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pagination .page {
+        padding: 1rem 0rem;
+    }
+}

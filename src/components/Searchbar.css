@@ -1,0 +1,33 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .search_input {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #eff4fc;
+    border: none;
+    color: #646464;
+    padding: 0.7rem 1rem;
+    margin: 1.2rem 0rem;
+    border-radius: 12px;
+    width: 60%;
+    transition: all ease-in-out .5s;
+  }
+  
+  .search_input:hover, .search_input:focus {
+    box-shadow: 0 0 1em #00000013;
+  }
+  
+  .search_input:focus {
+    outline: none;
+    background-color: #f0eeee;
+  }
+  
+  .search_input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #ccc;
+  }

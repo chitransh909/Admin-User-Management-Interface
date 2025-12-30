@@ -1,0 +1,46 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.sidebar {
+    padding: 2rem 0rem;
+    height: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,92,153,1) 0%, rgba(75,92,153,1) 100%);
+    text-align: center;
+    position: fixed;
+    width: 15%;
+}
+
+.sidebar #sb-heading {
+    text-transform: uppercase;
+    color: white;
+    padding: 0rem 0.5rem;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 5rem;
+}
+
+.sidebar #sb-item {
+    padding: 0.5rem;
+    margin: 0.2rem 1rem;
+    color: #f0f0f0;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar #sb-item:hover, .current {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: 0rem 1rem;
+}
+
+.link {
+    color: #f0f0f0;
+}
